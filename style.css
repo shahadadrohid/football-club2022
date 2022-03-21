@@ -31,3 +31,21 @@ header{
     transform: rotate(30deg) scale(0.8);
     transition-duration: 4s;
 }
+/*----------- Header Section Style End -------------- */
+
+
+/* ----------- Grid Section Style Start ------------  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px 100px 0 100px;
+}
+.blogimg img {
+    width: 250px;
+    /* height: 180px; */
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.blog{
+    border: 1px solid #ccc;
+}
