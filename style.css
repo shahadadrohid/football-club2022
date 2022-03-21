@@ -63,7 +63,7 @@ header{
 
 /* ----------------------- Bonus part ------------------------------  */
 
-/* Main section first content style end */
+/* News-Style Start */
 .bonus-part{
     margin-top: 100px;
 }
@@ -94,3 +94,23 @@ header{
 .news-content{
     margin-top: 30px;
 }
+/* News-Style End  */
+
+/* Sponsors-Style Start */
+
+.sponsor-title{
+    font-size: 30px;
+    color: #173562;
+    display: flex;
+    justify-content: center;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sponsors a:hover{
+    transform: scale(1.4);
+    transition-duration: 2s;
+}
+
+/* Sponsor Style End  */
