@@ -98,13 +98,17 @@ header{
 
 /* Sponsors-Style Start */
 
+.sponsor-content{
+    margin-top: 80px;
+}
 .sponsor-title{
-    font-size: 30px;
+    font-size: 45px;
     color: #173562;
     display: flex;
     justify-content: center;
 }
 .sponsors{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -114,3 +118,28 @@ header{
 }
 
 /* Sponsor Style End  */
+
+/* Footer Section Style  */
+
+footer{
+    margin-top: 100px;
+}
+.footer-img {
+    display: flex;
+    justify-content: center;
+}
+.footer-img img{
+    width: 380px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin: 10px; 
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+/* Footer style end  */
