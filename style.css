@@ -34,18 +34,23 @@ header{
 /*----------- Header Section Style End -------------- */
 
 
-/* ----------- Grid Section Style Start ------------  */
+/* ----------- Article Section Style Start ------------  */
 .blogs{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 80px 100px 0 100px;
+    grid-template-columns: 372px 372px 372px;
+    justify-content: space-evenly;
+    margin: 80px 150px 0 150px;
 }
 .blogimg img {
-    width: 250px;
-    /* height: 180px; */
-    border-radius: 10px;
+    width: 350px;
+    border-radius: 20px;
     padding: 10px 10px;
 }
+.bloginfo{
+    padding: 0 10px;
+}
 .blog{
-    border: 1px solid #ccc;
+    margin-top: 30px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(202, 192, 192);
+    border-radius: 10px;
 }
