@@ -1,10 +1,14 @@
+/* CSS Style  */
+
+/* Website font  */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Header content style  */
 header{
     width: 100%;
-    /* height: 650px; */
     background-color: rgb(46, 19, 167);
 }
 .header-section{
@@ -31,7 +35,7 @@ header{
     transform: rotate(30deg) scale(0.8);
     transition-duration: 4s;
 }
-/*----------- Header Section Style End -------------- */
+/*----------- Header Content Style End -------------- */
 
 /* ---------------- Main Section Style Start ---------------- */
 
@@ -99,7 +103,7 @@ header{
 /* Sponsors-Style Start */
 
 .sponsor-content{
-    margin-top: 80px;
+    margin-top: 30px;
 }
 .sponsor-title{
     font-size: 45px;
@@ -108,9 +112,11 @@ header{
     justify-content: center;
 }
 .sponsors{
-    margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.sponsors > a{
+margin: 0 10px;
 }
 .sponsors a:hover{
     transform: scale(1.4);
@@ -119,8 +125,13 @@ header{
 
 /* Sponsor Style End  */
 
-/* Footer Section Style  */
+hr{
+    width: 80%;
+    margin-top: 40px;
+}
+/* ----------------------- Bonus part ------------------------------  */
 
+/* Footer Section Style  */
 footer{
     margin-top: 100px;
 }
@@ -143,3 +154,86 @@ footer{
     justify-content: center;
 }
 /* Footer style end  */
+
+
+/* Mobile Device Responsive Using Media Query */
+/* Media Query  */
+
+/* Header content media query start */
+
+@media only screen and (max-width:688px) {
+    .body{
+        width: 100%;
+    }
+    .header-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .header-content{
+        width: 100%;
+        margin-right: 100px;
+    }
+    .header-right img{
+        width: 370px;
+        margin-left: 110px;
+    }
+
+    /* Article Media Query Style  */
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    /* Bonus Part Media Query Style  */
+
+    .bonus-part{
+        margin-top: 100px;
+    }
+    .Latest-news h1{
+        font-size: 20px;
+    }
+    .newsalbums{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    /* Sponsor Media Query Style  */
+    .sponsor-content{
+        margin-top: 80px;
+    }
+    .sponsor-title{
+        font-size: 28px;
+    }
+    .sponsors{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsors > a {
+        margin-top: 10px;
+    }
+
+    /* Footer Content Media Query Style  */
+    footer{
+        margin-top: 100px;
+    }
+    .footer-img {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-img img{
+        width: 300px;
+    }
+    .icon{
+        margin: 5px; 
+    }
+    .copyright > p{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
